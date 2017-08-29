@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1215B86B1F55043F00CD226B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1215B86A1F55043F00CD226B /* main.m */; };
+		1215B86E1F55043F00CD226B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1215B86D1F55043F00CD226B /* AppDelegate.m */; };
+		1215B8711F55043F00CD226B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1215B8701F55043F00CD226B /* ViewController.m */; };
+		1215B8741F55043F00CD226B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1215B8721F55043F00CD226B /* Main.storyboard */; };
+		1215B8761F55043F00CD226B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1215B8751F55043F00CD226B /* Assets.xcassets */; };
+		1215B8791F55043F00CD226B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1215B8771F55043F00CD226B /* LaunchScreen.storyboard */; };
+		1215B8841F55043F00CD226B /* iOS____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1215B8831F55043F00CD226B /* iOS____Tests.m */; };
+		1215B88F1F55043F00CD226B /* iOS____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1215B88E1F55043F00CD226B /* iOS____UITests.m */; };
+		1215B89E1F5515CD00CD226B /* SortUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1215B89D1F5515CD00CD226B /* SortUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1215B8801F55043F00CD226B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1215B85E1F55043F00CD226B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1215B8651F55043F00CD226B;
+			remoteInfo = "iOS算法整理";
+		};
+		1215B88B1F55043F00CD226B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1215B85E1F55043F00CD226B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1215B8651F55043F00CD226B;
+			remoteInfo = "iOS算法整理";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1215B8661F55043F00CD226B /* iOS算法整理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS算法整理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1215B86A1F55043F00CD226B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1215B86C1F55043F00CD226B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1215B86D1F55043F00CD226B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1215B86F1F55043F00CD226B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1215B8701F55043F00CD226B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1215B8731F55043F00CD226B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1215B8751F55043F00CD226B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1215B8781F55043F00CD226B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1215B87A1F55043F00CD226B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1215B87F1F55043F00CD226B /* iOS算法整理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS算法整理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1215B8831F55043F00CD226B /* iOS____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS____Tests.m"; sourceTree = "<group>"; };
+		1215B8851F55043F00CD226B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1215B88A1F55043F00CD226B /* iOS算法整理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS算法整理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1215B88E1F55043F00CD226B /* iOS____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS____UITests.m"; sourceTree = "<group>"; };
+		1215B8901F55043F00CD226B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1215B89C1F5515CD00CD226B /* SortUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortUtil.h; sourceTree = "<group>"; };
+		1215B89D1F5515CD00CD226B /* SortUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1215B8631F55043F00CD226B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1215B87C1F55043F00CD226B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1215B8871F55043F00CD226B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1215B85D1F55043F00CD226B = {
+			isa = PBXGroup;
+			children = (
+				1215B8681F55043F00CD226B /* iOS算法整理 */,
+				1215B8821F55043F00CD226B /* iOS算法整理Tests */,
+				1215B88D1F55043F00CD226B /* iOS算法整理UITests */,
+				1215B8671F55043F00CD226B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1215B8671F55043F00CD226B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1215B8661F55043F00CD226B /* iOS算法整理.app */,
+				1215B87F1F55043F00CD226B /* iOS算法整理Tests.xctest */,
+				1215B88A1F55043F00CD226B /* iOS算法整理UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1215B8681F55043F00CD226B /* iOS算法整理 */ = {
+			isa = PBXGroup;
+			children = (
+				1215B86C1F55043F00CD226B /* AppDelegate.h */,
+				1215B86D1F55043F00CD226B /* AppDelegate.m */,
+				1215B86F1F55043F00CD226B /* ViewController.h */,
+				1215B8701F55043F00CD226B /* ViewController.m */,
+				1215B89C1F5515CD00CD226B /* SortUtil.h */,
+				1215B89D1F5515CD00CD226B /* SortUtil.m */,
+				1215B8721F55043F00CD226B /* Main.storyboard */,
+				1215B8751F55043F00CD226B /* Assets.xcassets */,
+				1215B8771F55043F00CD226B /* LaunchScreen.storyboard */,
+				1215B87A1F55043F00CD226B /* Info.plist */,
+				1215B8691F55043F00CD226B /* Supporting Files */,
+			);
+			path = "iOS算法整理";
+			sourceTree = "<group>";
+		};
+		1215B8691F55043F00CD226B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1215B86A1F55043F00CD226B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1215B8821F55043F00CD226B /* iOS算法整理Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1215B8831F55043F00CD226B /* iOS____Tests.m */,
+				1215B8851F55043F00CD226B /* Info.plist */,
+			);
+			path = "iOS算法整理Tests";
+			sourceTree = "<group>";
+		};
+		1215B88D1F55043F00CD226B /* iOS算法整理UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1215B88E1F55043F00CD226B /* iOS____UITests.m */,
+				1215B8901F55043F00CD226B /* Info.plist */,
+			);
+			path = "iOS算法整理UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1215B8651F55043F00CD226B /* iOS算法整理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1215B8931F55043F00CD226B /* Build configuration list for PBXNativeTarget "iOS算法整理" */;
+			buildPhases = (
+				1215B8621F55043F00CD226B /* Sources */,
+				1215B8631F55043F00CD226B /* Frameworks */,
+				1215B8641F55043F00CD226B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS算法整理";
+			productName = "iOS算法整理";
+			productReference = 1215B8661F55043F00CD226B /* iOS算法整理.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1215B87E1F55043F00CD226B /* iOS算法整理Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1215B8961F55043F00CD226B /* Build configuration list for PBXNativeTarget "iOS算法整理Tests" */;
+			buildPhases = (
+				1215B87B1F55043F00CD226B /* Sources */,
+				1215B87C1F55043F00CD226B /* Frameworks */,
+				1215B87D1F55043F00CD226B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1215B8811F55043F00CD226B /* PBXTargetDependency */,
+			);
+			name = "iOS算法整理Tests";
+			productName = "iOS算法整理Tests";
+			productReference = 1215B87F1F55043F00CD226B /* iOS算法整理Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1215B8891F55043F00CD226B /* iOS算法整理UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1215B8991F55043F00CD226B /* Build configuration list for PBXNativeTarget "iOS算法整理UITests" */;
+			buildPhases = (
+				1215B8861F55043F00CD226B /* Sources */,
+				1215B8871F55043F00CD226B /* Frameworks */,
+				1215B8881F55043F00CD226B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1215B88C1F55043F00CD226B /* PBXTargetDependency */,
+			);
+			name = "iOS算法整理UITests";
+			productName = "iOS算法整理UITests";
+			productReference = 1215B88A1F55043F00CD226B /* iOS算法整理UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1215B85E1F55043F00CD226B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fangxian;
+				TargetAttributes = {
+					1215B8651F55043F00CD226B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					1215B87E1F55043F00CD226B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1215B8651F55043F00CD226B;
+					};
+					1215B8891F55043F00CD226B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1215B8651F55043F00CD226B;
+					};
+				};
+			};
+			buildConfigurationList = 1215B8611F55043F00CD226B /* Build configuration list for PBXProject "iOS算法整理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1215B85D1F55043F00CD226B;
+			productRefGroup = 1215B8671F55043F00CD226B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1215B8651F55043F00CD226B /* iOS算法整理 */,
+				1215B87E1F55043F00CD226B /* iOS算法整理Tests */,
+				1215B8891F55043F00CD226B /* iOS算法整理UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1215B8641F55043F00CD226B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1215B8791F55043F00CD226B /* LaunchScreen.storyboard in Resources */,
+				1215B8761F55043F00CD226B /* Assets.xcassets in Resources */,
+				1215B8741F55043F00CD226B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1215B87D1F55043F00CD226B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1215B8881F55043F00CD226B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1215B8621F55043F00CD226B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1215B8711F55043F00CD226B /* ViewController.m in Sources */,
+				1215B86E1F55043F00CD226B /* AppDelegate.m in Sources */,
+				1215B86B1F55043F00CD226B /* main.m in Sources */,
+				1215B89E1F5515CD00CD226B /* SortUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1215B87B1F55043F00CD226B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1215B8841F55043F00CD226B /* iOS____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1215B8861F55043F00CD226B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1215B88F1F55043F00CD226B /* iOS____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1215B8811F55043F00CD226B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1215B8651F55043F00CD226B /* iOS算法整理 */;
+			targetProxy = 1215B8801F55043F00CD226B /* PBXContainerItemProxy */;
+		};
+		1215B88C1F55043F00CD226B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1215B8651F55043F00CD226B /* iOS算法整理 */;
+			targetProxy = 1215B88B1F55043F00CD226B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1215B8721F55043F00CD226B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1215B8731F55043F00CD226B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1215B8771F55043F00CD226B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1215B8781F55043F00CD226B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1215B8911F55043F00CD226B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1215B8921F55043F00CD226B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1215B8941F55043F00CD226B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS算法整理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.iOS----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1215B8951F55043F00CD226B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS算法整理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.iOS----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1215B8971F55043F00CD226B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS算法整理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.iOS----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS算法整理.app/iOS算法整理";
+			};
+			name = Debug;
+		};
+		1215B8981F55043F00CD226B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS算法整理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.iOS----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS算法整理.app/iOS算法整理";
+			};
+			name = Release;
+		};
+		1215B89A1F55043F00CD226B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS算法整理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.iOS----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS算法整理";
+			};
+			name = Debug;
+		};
+		1215B89B1F55043F00CD226B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS算法整理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.iOS----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS算法整理";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1215B8611F55043F00CD226B /* Build configuration list for PBXProject "iOS算法整理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1215B8911F55043F00CD226B /* Debug */,
+				1215B8921F55043F00CD226B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1215B8931F55043F00CD226B /* Build configuration list for PBXNativeTarget "iOS算法整理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1215B8941F55043F00CD226B /* Debug */,
+				1215B8951F55043F00CD226B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1215B8961F55043F00CD226B /* Build configuration list for PBXNativeTarget "iOS算法整理Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1215B8971F55043F00CD226B /* Debug */,
+				1215B8981F55043F00CD226B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1215B8991F55043F00CD226B /* Build configuration list for PBXNativeTarget "iOS算法整理UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1215B89A1F55043F00CD226B /* Debug */,
+				1215B89B1F55043F00CD226B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1215B85E1F55043F00CD226B /* Project object */;
+}
